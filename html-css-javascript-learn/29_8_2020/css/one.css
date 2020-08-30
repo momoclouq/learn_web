@@ -1,7 +1,9 @@
 body
 {
+    /*force the layout to sit the top left corner of the viewport*/
     margin: 0;
     padding: 0;
+
     font-family: georgie, times, "times new roman", serif;
     color: #000;
     background-color: #ddd;

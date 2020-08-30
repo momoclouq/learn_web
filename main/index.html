@@ -17,5 +17,60 @@
         , <span id="HLred">block-level elements are displayed on a new line</span> and <span id="HLred">inline elements on the same line</span>. Everything is stacked in an ordered way from top to bottom</p>
 
         <p>So with <b>Float</b>, we remove it from the document flow</p>
+
+        <p><a href="../html-css-javascript-learn/29_8_2020/2columnsWithColor.html">Product</a></p>
+
+        <hr>
+        <h1>30/8/2020</h1>
+        <p>task: https://en.wikiversity.org/wiki/Web_Design/CSS_challenges#Challenge_3:_2-column_layout</p>
+        <div>Challenge 3: 2-column layout</div>
+        <p><b>float</b>: left/right/none/inherit</p>
+        <p><b>clear</b>: specifies what elements can float beside the cleared element</p>
+        <ul>
+            <li>clear: none; = allow floating elements on both sides (default)</li>
+            <li>clear: left; = no floating elements on the left side</li>
+            <li>clear: right; = no floating elements on the right side</li>
+            <li>clear: both; = no floating elements on both sides</li>
+            <li>clear: inherit; = inherits the clear value of its parent</li>
+        </ul>
+        
+        <p><h2 style="display: inline;">Selector</h2>: <a href="https://www.rithmschool.com/courses/html-css-fundamentals/syntax-selectors">check rithm's link</a></p>
+        <p>Heading within a line: add style="display: inline"</p>
+        <p>a horizontal line: &lt;hr&gt;</p> 
+        <p>Some small details in the link!</p>
+
+        <p><a href="../html-css-javascript-learn/30_8_2020/index.html">challenge 3 - link</a></p>
+
+        <p>task: same link, challenge 4</p>
+        <div>Challenge 4: columns with a header and footer</div>
+        <p><a href="http://css.maxdesign.com.au/listamatic/">references for list</a></p>
+        <p><a href="https://www.456bereastreet.com/lab/developing_with_web_standards/csslayout/2-col/">guide for challenge</a></p>
+        <p>Looking at the links, I see that the overall technique would be: creating Wrapper, in it create Header, nav, main, sidebar, footer.  
+        </p>
+
+        <p>Yesterday, I checked floats and today I practiced it (check link). Now come the <span id="HLred">postioning</span></p>
+        <h3>Positions: </h3>
+        <ul>
+            <li>relative: follows the default document flow, but can be offset</li>
+            <li>static (default): follows the default document flow, but can <b>not</b> be offset</li>
+            <li>absolute: the element is removed from the document flow, any offsets placed on will be relative to its parent.
+                If the parent is static -> check grandparent, recursively
+            </li>
+            <li>fixed: like absolute (removed from the document flow), but offsets are always positioned relative to the active viewport (truely fixed)</li>
+        </ul>
+
+        <p>anchor div to set content as absolute position: set div to relative position</p>
+        <p>To use an anchor div: set the div to overflow: hidden; and min-height: ...px; to make the div visible</p>
+
+        <ul>
+            <li><a href="../html-css-javascript-learn/30_8_2020/html/2columm_456bereastreet.html">product link 1</a></li>
+            <li><a href="../html-css-javascript-learn/30_8_2020/html/rithm1_part2.html">product link 2</a></li>
+        </ul>
+        
+
+        <p>Things to check tomorrow:</p>
+        <ul>
+            <li><a href="https://en.wikiversity.org/wiki/Web_Design/CSS_challenges#Challenge_3:_2-column_layout">link1</a></li>
+        </ul>
     </body>
 </html>

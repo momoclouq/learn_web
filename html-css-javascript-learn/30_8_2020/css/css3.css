@@ -1,0 +1,102 @@
+/* float way
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+}
+
+.redbox
+{
+    width: 100px;
+    height: 70px;
+    margin: 10px;
+    background-color: red;
+    float: left;
+}
+
+.bluebox
+{
+    width: 400px;
+    height: 70px;
+    margin: 10px;
+    background-color: blue;
+    float: right;
+}
+
+.yellowbox
+{
+    width: 520px;
+    height: 70px;
+    margin: 10px;
+    background-color: yellow;
+    clear: both;
+}
+
+#wrapper
+{
+    margin: 0 auto;
+    width: 544px;
+}
+
+.box
+{
+    border: 1px solid black;
+}
+*/
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+}
+
+.anchor
+{
+    position: relative;
+    min-height: 100px;
+    overflow: hidden;
+    border: 1px solid blueviolet;
+    width: fit-content;
+    
+}
+
+.redbox
+{
+    background-color: red;
+    width: 100px;
+    height: 70px;
+    margin: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.bluebox
+{
+    background-color: blue;
+    width: 400px;
+    height: 70px;
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    right: 110px;
+}
+
+.yellowbox
+{
+    background-color: yellow;
+    width: 520px;
+    height: 70px;
+    margin: 10px;
+    position: absolute;
+}
+
+.box
+{
+    border: 1px dashed black;
+}
+

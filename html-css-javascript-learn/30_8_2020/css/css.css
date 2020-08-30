@@ -1,0 +1,66 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: times, "times new roman", serif;
+    color: #000;
+    background-color: #ddd;
+}
+
+#wrap
+{
+    margin: 1em 10%;
+    background-color: skyblue;
+    background-image: url(../image/eruProfile_gg.jpg);
+    background-size: 180px 0;
+    background-repeat: repeat-y;
+    background-position: left;
+}
+
+#nav
+{
+    float: left;
+    width: 160px;
+    margin-right: 10px;
+    padding-top: 2em;
+}
+
+#nav h2
+{
+    margin-top:0;
+    padding-left: 1em;
+}
+
+#nav ul
+{
+    margin: 0;
+    padding-left: 4em;
+}
+
+#content
+{
+    padding: 1em;
+    margin: 0 0 0 200px;
+    background-color: gold;
+}
+
+#content > *
+{
+    text-align: center;
+}
+
+#content ul
+{
+    /*No bullets*/
+    list-style-type: none;
+}
+
+#content .copyright
+{
+    float: left;
+    background-color: transparent;
+    margin-left: 2em;
+    margin-top: 2em;
+    text-align: right;
+}
+
