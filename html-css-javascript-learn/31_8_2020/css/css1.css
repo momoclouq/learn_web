@@ -1,0 +1,53 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d0c3d4;
+}
+
+
+.anchor
+{
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+#container
+{
+    margin: 0 auto;
+    background: white;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.redbox
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100px;
+    height: 70px;
+    background-color: red;
+}
+
+.bluebox
+{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 70px;
+    background-color: blue;
+}
+
+.yellowbox
+{
+    width: 500px;
+    height: 70px;
+    background-color: yellow;
+    text-align: center;
+}
