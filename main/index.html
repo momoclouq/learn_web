@@ -119,5 +119,176 @@
             <li>remake google frontpage</li>
             <li>continue rithm courses</li>
         </ul>
+
+        <hr>
+        <h1>1/9/2020</h1>
+        <p>task: <a href="https://www.rithmschool.com/courses/html-css-fundamentals/css-layout-exercise">rithm html 1, final exercise part 4</a></p>
+        <p>Try to implement all 3 layout style in 1 css file!</p>
+        <p>set the background of a div as an image: <a href="https://stackoverflow.com/questions/8200204/fit-background-image-to-div">source</a></p>
+        <ol>
+            <li>background-image: url(...);</li>
+            <li>background-size: contain; (fit inside the div)</li>
+            <li>background-size: cover: (cover the whole div)</li>
+        </ol>
+
+        <p>Tip: choose div that has 2 class: .one.two</p>
+        <p>Explanation: .one.two = class one and class two. While .one .two = class two that is a descendant of class one!</p>
+        <p>sometimes, it's better to use float and not position</p>
+        
+        <p>Tip: a div that has 2 classes: class="one two"; !</p>
+
+        <p>task: <a href="http://www.flexboxdefense.com">flexbox defense</a></p>
+        <p>More things about flexbox:</p>
+        <ul>
+            <li>justify-content and align-items both have: flex-end (move the contents to the end side), flex-start(opposite of flex-end);</li>
+            <li>flex: reverse-row; = the items in the div will be displayed from right to left (flex-end is now left, start is right)</li>
+            <li>order: the default order is 0 for all items (this is applied to the content), increase it for certain contents will move them to the end (higher is further to the end)</li>
+            <li>order can be negative (-1, -2, etc).</li>
+            <li>To align individual items: align-sefl: flex-end, flex-start, center;</li>
+        </ul>
+
+        <p>task: <a href="http://flexboxfroggy.com/">flexbox Froggy</a></p>
+        <p>flex-wrap: </p>
+        <ul>
+            <li>nowrap; (default) = every item is fit to a single line</li>
+            <li>wrap: items wrap around to additional lines</li>
+            <li>wrap-reverse: items wrap around to additional lines in reverse</li>
+        </ul>
+        <p>As flex-direction and flex-wrap are used together so often, we have flex-flow: row wrap;, etc</p>    
+
+        <p>align-content: to set how multiple lines are spaced apart from each other</p>
+        <ul>
+            <li>flex-start: items are packed at the top of the container</li>
+            <li>flex-end: packed at the bottom</li>
+            <li>center: packed at the vertical center</li>
+            <li>space-between: equal spacing between them</li>
+            <li>space-around: _around_</li>
+            <li>stretch: items are stretched to fit the container</li>
+        </ul>
+        <p>align-content determines the spacing between items, whilte align-items determine the items as a whole in the container! (pls check)</p>
+
+        <p>task: <a href="https://www.rithmschool.com/courses/intermediate-css-bootstrap">starting with 1.1</a></p>
+        <p>transform: a newer CSS technology that allow us to move elements on the page</p>
+        <p>The tranform property: the only property you need to know</p>
+        <ul>
+            <li>translate: a method to move an element from its current position. Example: transform: translate(50px, 100px);</li>
+            <li>rotate: a method to rotate an element. Example: transform: rotate(90deg);</li>
+            <li>scale: a method to increase/decrease the size of an element (according to the given width and height). Example: transform: scale(2,3);</li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform">A list about transform</a></li>
+        </ul>
+        <p><a href="../html-css-javascript-learn/1_9_2020/html/rithm2_lec1_1.html">Example for transform</a></p>
+
+        <p>CSS transitions: new technology, perform animations without using JavaScript!</p>
+        <p>the transition property - provide a way to set and control animation speed</p>
+        <p><a href="../html-css-javascript-learn/1_9_2020/html/rithm2_lect1_2.html">Example for transitions</a></p>
+        <p>text-decoration: none/overline/line-through/underline/etc (used in links)</p>
+        <p>display: <a href="https://www.w3schools.com/css/css_inline-block.asp">source</a></p>
+        <ul>
+            <li>inline; = inline but the top and bottom margins/paddings are not respected</li>
+            <li>block; = works like a div, margins/paddings respected</li>
+            <li>inline-block; = inline but margins/paddings respected</li>
+        </ul>
+
+        <p>states of a link (a): </p>
+        <ul>
+            <li style="display: inline-block;">a:link</li>
+            <li style="display: inline-block;">a:visited</li>
+            <li style="display: inline-block;">a:hover</li>
+            <li style="display: inline-block;">a:active</li>
+        </ul>
+        <p>transition: background-color .5s, color .5s linear, border-radius 2s ease-out;</p>
+        <p><a href="https://css-tricks.com/almanac/properties/t/transition/">More on transition</a></p>
+
+        <p>animation - for complex animation not suitable for transitions</p>
+        <p>To create a custom animation: an animation property on the relevant HTML element and a set of keyframes</p>
+        <p>animation: shapeshift 6s infinite;</p>
+        <ul>
+            <li>shapeshift: the name of the animation</li>
+            <li>6s: how long it takes to complete the animation</li>
+            <li>infinite: play on loop</li>
+            <li><a href="https://css-tricks.com/almanac/properties/a/animation/">all the properties - 8 to be specific</a></li>
+        </ul>
+        <p>Create a circle: border-radius: 100px;</p>
+        <p><a href="../html-css-javascript-learn/1_9_2020/html/rithm2_lec1_3.html">animation examples</a></p>
+        <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations">more about animation!!</a></p>
+
+        <p><a href="https://www.rithmschool.com/courses/intermediate-css-bootstrap/css-transform-transition-animation-exercise">task: create a clock using transform, transition and animations</a></p>
+
+        <p>check tomorrow:</p>
+        <ol>
+            <li><a href="https://css-tricks.com/accessible-simple-responsive-tables/">responsive table</a></li>
+        </ol>
+
+        <hr>
+        <h1>2/9/2020</h1>
+        <p><a href="https://www.rithmschool.com/courses/intermediate-css-bootstrap/css-transform-transition-animation-exercise">task: create a clock using transform, transition and animations</a></p>
+        <p>Continue with the links from 1/9/2020</p>
+        <p>have to check the answer, there are a few things to remember: </p>
+        <ul>
+            <li>because clock "contains" second, minute, hour. you should set position of the clock as relative
+                and the second, minute, hour as absolute -> set the position according to the clock.
+            </li>
+            <li>keep the transform animation smooth and correct, we have to set the same value for the middle transitions.
+                Example: transform-origin: set the origin of the transform. we set this for all the frames needed in the keyframes (0%, 50%, etc). otherwise the origin will change middle way!
+            </li>
+        </ul>
+
+        <p>task: <a href="https://www.rithmschool.com/courses/intermediate-css-bootstrap">starting with 1.2</a></p>
+        <p>Since different browsers have slightly differrent assumptions about the default styling of a webpage.</p>
+        <p>To eliminate this discrepancy, we have CSS Reset. You dont normally write these yourself. Some commonly used resets: </p>
+        <ul>
+            <li><a href="http://meyerweb.com/eric/tools/css/reset/">reset.css: a bit aggressive</a></li>
+            <li><a href="https://necolas.github.io/normalize.css/">normalize.css</li>
+        </ul>
+        <p>One thing to keep in mind is how your site looks on different devices, Responsive design is a way
+            to approach designing your applicaitons for a variety of devices.
+        </p>
+        <p>One approach would be mobile first design (think about mobile before desktop)</p>
+        <p>After the basics, advanced styles and other overrides for larger screens are then added into the stylesheet via media queries</p>
+        <p>media queries: @media (min-width: 480px) {... (normal css)}</p>
+        <p><a href="../html-css-javascript-learn/2_9_2020/html/rithm2_lect1_3.html">media queries example</a></p>
+        <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media">More examples</a></p>
+
+        <p>Responsive unit: relative to the length of another property.</p>
+        <ul>
+            <li>absolute unit: pixels, inches, centimeters, points, etc</li>
+            <li>responsive unit: % (according to the container of the content)</li>
+            <li>em: 1em is equal to the default font-size for the element</li>
+            <li>rem: 1rem the same with 1em but the size is relative to root (html)</li>
+            <li>vh: 1vh = 1/100 view height</li>
+            <li>vw: 1vw = 1/100 view width</li>
+            <li>vmin: 1vmin = the minimum of 1vh and 1vw</li>
+            <li>vmax: 1vmax = the maximum ___</li>
+        </ul>
+
+        <p>Tips: </p>
+        <ul>
+            <li>for smaller projects, avoid IDs and classes, use more complex selectors</li>
+            <li>keep CSS short by avoid repeating code</li>
+            <li>Patterns for structuring CSS: <a href="https://blog.decaf.de/2015/06/24/why-bem-in-a-nutshell/">BEM (Block, Element, Modifier)</a>, etc</li>
+        </ul>
+
+        <p>task: <a href="https://www.rithmschool.com/courses/intermediate-css-bootstrap/responsive-design-exercise">Rithm2 lecture1 part2, exercise</a></p>
+        <p>Tips: to use media queries, remember that CSS will choose the last query that is qualified.</p>
+
+        <p>Bootstrap: made by people from twitter, now is open-source.</p>
+        <p>A CSS framework - a collection of style rules and additional tools to help build responsive layouts faster.</p>
+        <p>There are many frameworks, bootstrap is one of the most popular. They are kinda the same, so learning is easy after one</p>
+        <p>Use Bootstrap: many ways, but use CDN(content delivery network)</p>
+
+        <p>Container: any layout that you build with Bootstrap should begin with a container. These containers are the most basics
+            layout element in Bottstrap and are required when using the grid system (most commonly used feature)
+        </p>
+        <p>A container is just a div with one of two classes: either container or container-fluid.</p>
+        <p>container: fixed widths that change at a finite number of breakpoints</p>
+        <p>container-fluid: always take up 100% of the available width</p>
+        <p><a href="../html-css-javascript-learn/2_9_2020/html/rithm2_lect1_4.html">Example</a></p>
+        <p>alert class: styling, <a href="https://getbootstrap.com/docs/4.0/components/alerts/">list of aler classes</a></p>
+
+        <p>Product:</p>
+        <ul>
+            <li><a href="../html-css-javascript-learn/1_9_2020/html/rithm2_ex1.html">Exercise 1</a></li>
+            <li><a href="../html-css-javascript-learn/2_9_2020/html/rithm2_lect1_ex2.html">rithm2 lecture1 part2 exercise</a></li>
+        </ul>
     </body>
 </html>

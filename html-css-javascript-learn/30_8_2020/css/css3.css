@@ -46,6 +46,7 @@ body
 }
 */
 
+/* position implementation
 body
 {
     margin: 0;
@@ -61,7 +62,6 @@ body
     overflow: hidden;
     border: 1px solid blueviolet;
     width: fit-content;
-    
 }
 
 .redbox
@@ -99,4 +99,8 @@ body
 {
     border: 1px dashed black;
 }
+*/
+
+
+
 

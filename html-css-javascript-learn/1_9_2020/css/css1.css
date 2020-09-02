@@ -1,0 +1,58 @@
+/*all 3 implementation*/
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background: white;
+}
+
+#container
+{
+    margin: 0 auto;
+    min-height: 100px;
+    width: fit-content;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#green
+{
+    width: 620px;
+    height: 100px;
+    background: green;
+    left: 0;
+    top: 0;
+    margin: 5px;
+}
+
+.block
+{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    float: left;
+}
+
+.pic
+{
+    background-image: url("../image/eruProfile_gg.jpg");
+    background-size: contain;
+}
+
+#yellow.block
+{
+    background-color: yellow;
+    clear: left;
+}
+
+#red.block
+{
+    background-color: red;
+}
+
+#blue.block
+{
+    background-color: blue;
+}

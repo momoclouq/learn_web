@@ -1,0 +1,59 @@
+body
+{
+    background: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+#clock {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    border: 10px solid black;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  #seconds {
+    width: 0px;
+    height: 180px;
+    border: 1px solid black;
+    background-color: gray;
+    margin-left: 198px;
+    margin-top: 20px;
+    animation: rotate 60s infinite;
+    position: absolute;
+  }
+  
+  #minutes {
+    width: 6px;
+    height: 140px;
+    background-color: darkslategray;
+    margin-left: 197px;
+    margin-top: 60px;
+    animation: rotate 3600s infinite linear;
+    position: absolute;
+  }
+  
+  #hours {
+    width: 8px;
+    height: 120px;
+    background-color: black;
+    margin-left: 196px;
+    margin-top: 80px;
+    animation: rotate 43200s infinite linear;
+    position: absolute;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform-origin: center bottom;
+    }
+  
+    50% {
+        transform-origin: center bottom;
+      transform: rotate(180deg); 
+      
+    }
+  }

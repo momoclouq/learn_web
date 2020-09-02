@@ -1,0 +1,47 @@
+@media (max-width: 765px)
+{
+    .col-4, .col-6, .col-12
+    {
+        width: 100%;
+    }
+}
+
+
+
+@media (min-width: 960px)
+{
+    .col-4
+    {
+        width: 33%;
+    }
+
+    .col-6
+    {
+        width: 50%;
+    }
+
+    .col-12
+    {
+        width: 100%;
+    }
+}
+
+@media (min-width: 766px)
+{
+    .col-4
+    {
+        width: 50%;
+    }
+
+    .col-6, .col-12
+    {
+        width: 100%;
+    }
+}
+
+div
+{
+    background-color: blue;
+    height: 100px;
+    margin-top: 10px;
+}
