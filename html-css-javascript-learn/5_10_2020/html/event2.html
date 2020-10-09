@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            let container = document.getElementById("container");
+            container.addEventListener("click", function(event){
+                console.log("Let's look at the event object!", event);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="container">
+        Click on me!
+    </div>
+
+    <ul> Ingredients
+        <li>Sugar</li>
+        <li>Milk</li>
+        <li>Eggs</li>
+        <li>Flour</li>
+        <li>Baking Soda</li>
+    </ul>
+
+    <script src="../script/event2.js"></script>
+</body>
+</html>
