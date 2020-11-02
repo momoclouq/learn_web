@@ -1,0 +1,31 @@
+#intro {
+    text-align: center;
+    color: #6563e6;
+    font-size: 30px;
+}
+
+.dex{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #c9c2ad;
+    text-align: center;
+    list-style-type: none;
+    width: fit-content;
+    margin: 0 2px;
+}
+
+.PokeName{
+    color: blue;
+    font-size: 15px;
+}
+
+.PokeType{
+    font-size: 10px;
+}
+
